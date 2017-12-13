@@ -11,33 +11,53 @@ public class College
     private String region;
     private int tuition;
   
+    /**
+     * College Constructer
+     * 
+     * @param name Name of the college.
+     * @param region Region of the college.
+     * @param tuition Tuition cost of the college.
+     */
     public College(String name, String region, int tuition)
     {
         this.name = name;
         this.region = region;
         this.tuition = tuition;
     }
-    //returns college name
+    /**
+     * Grabs the name of the object
+     * @return name name of object 
+     */
     public String getName()
     {
         return name;
     }
-    //return college region
+    /**
+     * Grabs the region of the object 
+     * @return region region of object 
+     */
     public String getRegion()
     {
         return region;
     }
-    //returns college tuition 
+    /**
+     * Grabs the tuition of the object
+     * @return tuition tuition of object 
+     */
     public int getTuition()
     {
         return tuition;
     }
-    //sets college's tuition to newTuition
+    /**
+     * Sets tuition of object 
+     */
     public void setTuition(int newTuition)
     {
         this.tuition = newTuition;
     }
-    //returns name of college, region, and tuition
+    /**
+     * 
+     */
     public String toString() {
         return name + ", " + region + ", " + tuition;
     }
