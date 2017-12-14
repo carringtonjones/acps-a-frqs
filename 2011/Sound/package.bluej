@@ -1,8 +1,11 @@
 #BlueJ package file
+dependency1.from=SoundTester
+dependency1.to=Sound
+dependency1.type=UsesDependency
 editor.fx.0.height=722
 editor.fx.0.width=800
-editor.fx.0.x=440
-editor.fx.0.y=102
+editor.fx.0.x=565
+editor.fx.0.y=85
 objectbench.height=101
 objectbench.width=776
 package.divider.horizontal=0.6
@@ -13,7 +16,7 @@ package.editor.x=858
 package.editor.y=30
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=0
+package.numDependencies=1
 package.numTargets=2
 package.showExtends=true
 package.showUses=true
