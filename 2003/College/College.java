@@ -12,7 +12,7 @@ public class College
     private int tuition;
   
     /**
-     * College Constructer
+     * College Constructor
      * 
      * @param name Name of the college.
      * @param region Region of the college.
