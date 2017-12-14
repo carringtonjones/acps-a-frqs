@@ -1,12 +1,12 @@
 #BlueJ package file
-dependency1.from=CollegeGroupTester
+dependency1.from=CollegeGroup
 dependency1.to=College
 dependency1.type=UsesDependency
 dependency2.from=CollegeGroupTester
-dependency2.to=CollegeGroup
+dependency2.to=College
 dependency2.type=UsesDependency
-dependency3.from=CollegeGroup
-dependency3.to=College
+dependency3.from=CollegeGroupTester
+dependency3.to=CollegeGroup
 dependency3.type=UsesDependency
 editor.fx.0.height=722
 editor.fx.0.width=800
