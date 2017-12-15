@@ -1,33 +1,29 @@
-
-/**
- * Write a description of class PhraseTester here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class PhraseTester
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class PhraseTester
-     */
-    public PhraseTester()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+public class PhraseTester {
+    public static void main(String[] args) {
+        Phrase phrase1 = new Phrase(" A cat ate late.");
+        System.out.println(phrase1.findLastOccurrence("at"));
+        System.out.println(phrase1.findLastOccurrence("cat"));
+        System.out.println(phrase1.findLastOccurrence("bat"));
+        phrase1.replaceNthOccurrence("at", 1, "rane");
+        System.out.println(phrase1);
+        
+        Phrase phrase2 = new Phrase("A cat ate late.");
+        phrase2.replaceNthOccurrence("at", 6, "xx");
+        System.out.println(phrase2);
+        
+        Phrase phrase3 = new Phrase("A cat ate late."); 
+        phrase3.replaceNthOccurrence("bat", 2, "xx");
+        System.out.println(phrase3);
+        
+        Phrase phrase4 = new Phrase ("aaaa");
+        phrase4.replaceNthOccurrence("aa", 1, "xx");
+        System.out.println(phrase4);
+        
+        Phrase phrase5 = new Phrase ("aaaa");
+        phrase5.replaceNthOccurrence("aa", 2, "bbb");
+        System.out.println(phrase5);
     }
 }
+        
+        
+        
