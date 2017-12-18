@@ -1,11 +1,14 @@
 
-/**
- * Write a description of class HiddenWordTester here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class HiddenWordTester
 {
+    public static void main(String args[]) {
+        HiddenWord puzzle = new HiddenWord("HARPS");
+        
+        System.out.println(puzzle.getHint("AAAAA"));
+        System.out.println(puzzle.getHint("HELLO"));
+        System.out.println(puzzle.getHint("HEART"));
+        System.out.println(puzzle.getHint("HARMS"));
+        System.out.println(puzzle.getHint("HARPS"));
+    }
 }
 
