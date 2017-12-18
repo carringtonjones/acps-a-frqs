@@ -27,7 +27,7 @@ public class SelfDivisor
     
     /**
      * Finds the first "n" self divisors given a start point
-     * @param  s  start the number to start looking for self divisors.
+     * @param  s  start the number to start looking for self divisors
      * Precondition: start > 0
      * @param  num  the number of self divisors to be returned.
      * Precondition: num > 0 
