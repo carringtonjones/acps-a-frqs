@@ -8,8 +8,8 @@ public class SelfDivisor
 {
     /**
      * @param num the number being tested
-     * Precondition: number > 0 
-     * @param  number  integer that needs to be checked
+     * Precondition: num > 0 
+     * @param  n  integer that needs to be checked
      * @return true if every decimal digit of the number is a divisor of the number, if not then its false
      */    
     public static boolean isSelfDivisor(int num)
@@ -26,11 +26,12 @@ public class SelfDivisor
     }
     
     /**
-     * Finds the first "n" self divisors given a start point.
-     *
-     * @param  start the number to start looking for self divisors.
-     * @param  num the number of self divisors to be returned.
-     * @return    the array of numbers which met the criteria.
+     * Finds the first "n" self divisors given a start point
+     * @param  s  start the number to start looking for self divisors.
+     * Precondition: start > 0
+     * @param  num  the number of self divisors to be returned.
+     * Precondition: num > 0 
+     * @return  an array containing the first num integers > start that are self-divisors
      */   
     public static int[] firstNumSelfDivisors(int start, int num) {
         int[] r = new int[num];
