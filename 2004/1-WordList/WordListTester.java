@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class WordList here.
+ * Write a description of class WordListTester here.
  *
  * @author (Carrington Jones)
  * @version (a version number or a date)
  */
-public class WordList
+public class WordListTester
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class WordList
+     * Constructor for objects of class WordListTester
      */
-    public WordList()
+    public WordListTester()
     {
         // initialise instance variables
         x = 0;
