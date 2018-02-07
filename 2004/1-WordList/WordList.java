@@ -3,7 +3,7 @@
  * Write a description of class WordList here.
  *
  * @author (Carrington Jones)
- * @version (a version number or a date)
+ * @version (2/5/18)
  */
 public class WordList
 {
