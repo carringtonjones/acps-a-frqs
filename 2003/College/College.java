@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class College here.
+ * 2003 APCS FRQ
  *
  * @author (Carrington Jones)
  * @version (11/23/17)
