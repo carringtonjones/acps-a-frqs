@@ -2,8 +2,8 @@
 /**
  * Write a description of class StudentAnswerSheet here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (2/7/18)
  */
 public class StudentAnswerSheet
 {
