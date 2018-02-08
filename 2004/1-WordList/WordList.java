@@ -1,6 +1,6 @@
 
 /**
- * Write a description of class WordList here.
+ * 2004 APCS FRQ
  *
  * @author (Carrington Jones)
  * @version (2/5/18)
