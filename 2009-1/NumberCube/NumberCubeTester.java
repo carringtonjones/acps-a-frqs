@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class StudentAnswerSheet here.
+ * Write a description of class NumberCubeTester here.
  *
- * @author (Carrington Jones)
- * @version (2/7/18)
+ * @author (your name)
+ * @version (a version number or a date)
  */
-public class StudentAnswerSheet
+public class NumberCubeTester
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class StudentAnswerSheet
+     * Constructor for objects of class NumberCubeTester
      */
-    public StudentAnswerSheet()
+    public NumberCubeTester()
     {
         // initialise instance variables
         x = 0;

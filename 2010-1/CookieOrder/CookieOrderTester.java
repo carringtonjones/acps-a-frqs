@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class AnswerSheetTester here.
+ * Write a description of class CookieOrderTester here.
  *
- * @author (Carrington Jones)
+ * @author (your name)
  * @version (a version number or a date)
  */
-public class AnswerSheetTester
+public class CookieOrderTester
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class AnswerSheetTester
+     * Constructor for objects of class CookieOrderTester
      */
-    public AnswerSheetTester()
+    public CookieOrderTester()
     {
         // initialise instance variables
         x = 0;
