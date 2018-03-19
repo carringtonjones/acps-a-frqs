@@ -1,8 +1,7 @@
-
 /**
  * Write a description of class Pet here.
  *
- * @author (your name)
+ * @author (Carrington Jones)
  * @version (a version number or a date)
  */
 public abstract class Pet

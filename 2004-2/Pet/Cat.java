@@ -1,8 +1,7 @@
-
 /**
  * Write a description of class Cat here.
  *
- * @author (your name)
+ * @author (Carrington Jones)
  * @version (a version number or a date)
  */
 public class Cat extends Pet

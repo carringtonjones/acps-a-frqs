@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Dog here.
  *
@@ -26,3 +25,4 @@ public class Dog extends Pet
    
    
     
+
