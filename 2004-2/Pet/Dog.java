@@ -1,8 +1,8 @@
 /**
  * Write a description of class Dog here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (3/16/18)
  */
 public class Dog extends Pet
 {
