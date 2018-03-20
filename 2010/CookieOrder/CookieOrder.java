@@ -7,27 +7,46 @@
  */
 public class CookieOrder
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private String variety;
+    private int numBoxes;
 
     /**
-     * Constructor for objects of class CookieOrder
+     * Constructor for objects of CookieOrder class
      */
-    public CookieOrder()
+    public CookieOrder(String variety, int numBoxes)
     {
-        // initialise instance variables
-        x = 0;
+        
+        this.variety = variety;
+        this.numBoxes = numBoxes;
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return the variety of cookies being ordered
      */
-    public int sampleMethod(int y)
+    public String getVariety()
     {
-        // put your code here
-        return x + y;
+        
+        return variety;
+        
+    }
+    
+    /**
+     * @return the number of boxes being ordered
+     */
+    public int getNumBoxes()
+    {
+        
+        return numBoxes;
+        
+    }
+    
+    /**
+     * @return the different varieties of cookie being ordered.
+     */
+    public String toString() {
+        
+        return variety;
+        
     }
 }
