@@ -2,8 +2,8 @@
 /**
  * Write a description of class CookieOrder here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (2/12/18)
  */
 public class CookieOrder
 {

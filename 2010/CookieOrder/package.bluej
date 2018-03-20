@@ -1,17 +1,17 @@
 #BlueJ package file
-dependency1.from=Tester
-dependency1.to=MasterOrder
+dependency1.from=MasterOrder
+dependency1.to=CookieOrder
 dependency1.type=UsesDependency
 dependency2.from=Tester
-dependency2.to=CookieOrder
+dependency2.to=MasterOrder
 dependency2.type=UsesDependency
-dependency3.from=MasterOrder
+dependency3.from=Tester
 dependency3.to=CookieOrder
 dependency3.type=UsesDependency
 editor.fx.0.height=722
 editor.fx.0.width=800
-editor.fx.0.x=262
-editor.fx.0.y=163
+editor.fx.0.x=834
+editor.fx.0.y=151
 objectbench.height=101
 objectbench.width=776
 package.divider.horizontal=0.6
