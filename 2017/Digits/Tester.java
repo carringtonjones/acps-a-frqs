@@ -1,8 +1,8 @@
 /**
  * Write a description of class Tester here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (2/23/18)
  */
 public class Tester
 {
