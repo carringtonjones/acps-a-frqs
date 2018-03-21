@@ -2,10 +2,10 @@
 dependency1.from=NumberCubeTester
 dependency1.to=NumberCube
 dependency1.type=UsesDependency
-editor.fx.0.height=962
-editor.fx.0.width=1680
-editor.fx.0.x=97
-editor.fx.0.y=283
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 objectbench.height=101
 objectbench.width=776
 package.divider.horizontal=0.6
