@@ -2,32 +2,62 @@
 /**
  * Write a description of class BatteryCharger here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (2/22/18)
  */
 public class BatteryCharger
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class BatteryCharger
+   /** rateTable has 24 entries representing the charging costs for hours 0 through 23 */
+     private int[] rateTable;
+    
+    /** 
+     * Constructor for the BatteryCharger class
+     *  @param rateTable is the array of rates for each individual hour
+     */  
+    
+     public BatteryCharger(int[] rateTable) {
+         this.rateTable = rateTable;
+         
+     }
+     
+    /** Determines the total cost to charge the battery starting at the beginning of startHour.
+     * @param startHour the hour at which the charge period begins
+     * Precondition: 0 ≤ startHour ≤ 23
+     * @param chargeTime the number of hours the battery needs to be charged
+     * Precondition: chargeTime > 0
+     * @return the total cost to charge the battery
      */
-    public BatteryCharger()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+    
+     private int getChargingCost(int startHour, int chargeTime)
+     { 
+         //int time = 0;
+         int cost = 0;
+         
+         for (int hour = startHour; hour < startHour + chargeTime ; hour++) {
+             //time = i;
+             //while (time > 23) time -= 24;
+             cost += rateTable[hour % rateTable.length];
+         }
+         
+         return cost;
+     }
+     
+    /** Determines start time to charge the battery at the lowest cost for the given charge time.
+     * @param chargeTime the number of hours the battery needs to be charged
+     * Precondition: chargeTime > 0
+     * @return an optimal start time, with 0 ≤ returned value ≤ 23
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    
+    public int getChargeStartTime(int chargeTime)
+  {
+    int cheapestStartHour = 0;
+    
+    for(int startHour = 1; startHour < rateTable.length; startHour++)
+      if(getChargingCost(startHour, chargeTime) <
+            getChargingCost(cheapestStartHour, chargeTime))
+        cheapestStartHour = startHour;
+    return cheapestStartHour;
+    
+  }
 }
+     
