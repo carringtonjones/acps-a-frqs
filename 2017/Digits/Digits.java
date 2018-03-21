@@ -1,33 +1,46 @@
-
 /**
  * Write a description of class Digits here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (2/23/18)
  */
+import java.util.ArrayList;
+
 public class Digits
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
     /**
-     * Constructor for objects of class Digits
+     * The list of digits from the number used to construct this object.
+     * The digits appear in the list in the same order in which they appear in the original
+     * number.
      */
-    public Digits()
+    private ArrayList<Integer> digitList;
+    
+    /** Constructs Digits object that represents num.
+     * Precondition: num >= 0
+     */
+    public Digits(int num) 
     {
-        // initialise instance variables
-        x = 0;
+        digitList = new ArrayList<Integer>();
+        
+        do {
+            digitList.add(0, num % 10);
+            num /= 10;
+        } while (num > 0);
     }
-
+    
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Returns true if the digits in this Digits object are in strictly increasing order;
+     * false otherwise.
+     * 
      */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public boolean isStrictlyIncreasing()
+        {
+        for (int i = 0; i < digitList.size()-1; i++) {
+            
+            if (digitList.get(i) >= digitList.get(i+1)) return false;
+            
+        }
+        
+        return true;
     }
 }
