@@ -1,33 +1,36 @@
 
 /**
- * Write a description of class TaxableItem here.
+ * 2006 Taxable Item FRQ
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Carrington Jones)
+ * @version (3/21/18)
  */
-public class TaxableItem
+public abstract class TaxableItem implements Item
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private double taxRate;
+    
     /**
-     * Constructor for objects of class TaxableItem
+     * Gets the list price of the taxable item.=
      */
-    public TaxableItem()
-    {
-        // initialise instance variables
-        x = 0;
-    }
+    public abstract double getListPrice();
 
     /**
-     * An example of a method - replace this comment with your own
+     * Constructor for the class TaxableItem
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param rate the current tax rate for the item.
      */
-    public int sampleMethod(int y)
+    public TaxableItem(double rate)
     {
-        // put your code here
-        return x + y;
+        taxRate = rate;
     }
+    
+    /**
+     * Returns the price of the item including the tax
+     *
+     * @return sum of the list price with tax added.
+     */
+    public double purchasePrice()
+    {
+        return getListPrice() + getListPrice()*taxRate;
+    }    
 }
