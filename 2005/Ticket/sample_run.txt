@@ -1,0 +1,16 @@
+Number: 715
+Price: 50.0
+
+Number: 920
+Price: 40.0
+
+Number: 866
+Price: 30.0
+
+Number: 814
+Price: 20.0
+(Student ID required)
+
+Number: 140
+Price: 15.0
+(Student ID required)
