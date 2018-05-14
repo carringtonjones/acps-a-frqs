@@ -1,0 +1,2 @@
+["Algonquin" 225, "Alpine" 274, "Monadnock" 274, "Monadnock" 344, "Paris Mountain" 274, "Whiteface" 301]
+5
